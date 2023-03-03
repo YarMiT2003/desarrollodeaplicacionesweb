@@ -118,7 +118,7 @@ text-decoration: none;
   }
   .container .datos:hover{
     transform: translateY(-15);
-    box-shadow: 0 24px px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 24px 16px rgba(0, 0, 0, 0.2);
 }
 .container .datos img{
     width: 400px;
