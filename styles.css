@@ -108,7 +108,7 @@ text-decoration: none;
   }
   .container .datos{
     width: 400px;
-    height: 650px;
+    height: 750px;
     border-radius: 5px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
     overflow: hidden;
@@ -127,13 +127,19 @@ text-decoration: none;
 
 .container .datos h2{
     margin-top: 15px ;
-        font-size: 20px;
+        font-size: 25px;
         font-family: 'Anton', sans-serif;
         text-align: center;
 }
 .container .datos h3{
     margin-top: 15px ;
-        font-size: 15px;
+        font-size: 20px;
+        font-family: 'Anton', sans-serif;
+        text-align: center;
+}
+.container .datos h4{
+    margin-top: 15px ;
+        font-size: 16px;
         font-family: 'Anton', sans-serif;
         text-align: center;
 }
