@@ -8,6 +8,7 @@
 html{
     scroll-behavior: smooth;
 }
+
 /*MENÚ HIPERVINCULOS*/
 .contenedor-header{
     background: rgb(95, 150, 160);
@@ -58,7 +59,7 @@ text-decoration: none;
     align-items: center;
 }
 .portada .contenido-banner{
-    padding: 0px;
+    padding: 60px;
     background-color: rgb(95, 150, 160);
     max-width: 350px;
     margin: auto;
@@ -102,7 +103,7 @@ text-decoration: none;
   }
   .container .datos{
     width: 400px;
-    height: 650px;
+    height: 450px;
     border-radius: 5px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
     overflow: hidden;
@@ -112,21 +113,21 @@ text-decoration: none;
   }
   .container .datos:hover{
     transform: translateY(-15);
-    box-shadow: 0 24px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 24px 16px rgb(42, 106, 117);
 }
 .container .datos img{
     width: 400px;
-    height: 400px;
+    height: 300px;
 }
-.container .datos p{
-    padding: 0 lrem;
-    font-size: 16 px;
-    font-weight: 300;
-
+.container .datos h2{
+    margin-top: 15px ;
+        font-size: 30px;
+        font-family: 'Anton', sans-serif;
+        text-align: center;
 }
-
-.container .datos a{
-    font-weight: 500;
-    text-decoration: none;
-    color: blueviolet;
+.container .datos h3{
+    margin-top: 15px ;
+        font-size: 20px;
+        font-family: 'Anton', sans-serif;
+        text-align: center;
 }

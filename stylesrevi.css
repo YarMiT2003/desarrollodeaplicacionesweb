@@ -52,7 +52,7 @@ text-decoration: none;
     background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1));
     url(image/fofoportada);
     background-size: cover;
-    height: 80%;
+    height: 10%;
     color:rgb(255, 255, 255);
     display: flex;
     align-items: center;
@@ -97,10 +97,10 @@ text-decoration: none;
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
-  }
+    }
   .container .datos{
     width: 400px;
-    height: 650px;
+    height: 700px;
     border-radius: 5px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
     overflow: hidden;
@@ -110,14 +110,22 @@ text-decoration: none;
   }
   .container .datos:hover{
     transform: translateY(-15);
-    box-shadow: 0 24px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 24px 16px rgb(42, 106, 117);
 }
 .container .datos img{
     width: 400px;
     height: 500px;
 }
-.container .datos p{
-    padding: 0 lrem;
-    font-size: 16 px;
-    font-weight: 300px;
+
+.container .datos h2{
+    margin-top: 15px ;
+        font-size: 30px;
+        font-family: 'Anton', sans-serif;
+        text-align: center;
+}
+.container .datos h3{
+    margin-top: 15px ;
+        font-size: 20px;
+        font-family: 'Anton', sans-serif;
+        text-align: center;
 }
