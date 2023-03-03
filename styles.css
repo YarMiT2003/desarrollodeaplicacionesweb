@@ -1,3 +1,138 @@
-body{
-    background-color: blue;
+@import url('https: //fonts.googleapis.com/css2? family= Anton & display=swap');
+*{
+    box-sizing: border-box;
+    ffont-family: 'Anton', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*MENÚ HIPERVINCULOS*/
+.contenedor-header{
+    background: rgb(95, 150, 160);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.contenedor-header header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px; 
+}
+.contenedor-header header .logo a{
+    font-family: 'Anton', sans-serif;
+    font-size: 36px;
+    color: rgb(30, 35, 38);
+    text-decoration: none;
+}
+.contenedor-header header ul{
+    display: flex;
+    list-style: none;
+}
+.contenedor-header header nav ul li a{
+text-align: none;
+color: bisque;
+margin: 0 15px;
+padding: 3px;
+transition: .5s;
+text-decoration: none;
+}
+.contenedor-header header nav ul li a:hover{
+    color: rgb(30, 35, 38);
+}
+
+/*PORTADA*/
+.portada {
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1));
+    url(image/fofoportada);
+    background-size: cover;
+    height: 100vh;
+    color:rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+}
+.portada .contenido-banner{
+    padding: 30px;
+    background-color: rgb(95, 150, 160);
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+}
+.portada .contenido-banner img{
+    margin-top: 40px;
+    border-radius: 10px solid #1cb698;
+    display: block;
+    width: 80%;
+    margin: auto;
+    border-radius: 100%;
+}
+        .portada .contenido-banner h1{
+        margin-top: 2px ;
+        font-size: 18px;
+        font-family: 'Anton', sans-serif;  
+        }
+        .portada .contenido-banner h2{
+            margin-top: 10px ;
+            font-size: 38px;
+            font-family: 'Anton', sans-serif; 
+        }
+        .portada .contenido-banner p{
+            margin-top: 2px ;
+            font-size: 20px;
+            font-family: 'Anton', sans-serif;  
+        }
+  /*DATOS PERSONALES*/
+  .datos{
+    background: linear-gradient(to top, rgba(95, 150, 160,1), rgba(30,35,38,.8));
+    color: rgb(255, 255, 255);
+    text-justify: center;
+
+  }
+ 
+  .container{
+    width: 100%;
+    max-width: 2000px;
+    height: 850px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .container .datos{
+    width: 400px;
+    height: 650px;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text align: center;
+    transition: all 0.25s;
+  }
+  
+  .container .datos:hover{
+    transform: translateY(-15);
+    box-shadow: 0 24px px rgba(0, 0, 0, 0.2);
+}
+.container .datos img{
+    width: 400px;
+    height: 400px;
+}
+.container .datos p{
+    padding: 0 lrem;
+    font-size: 16 px;
+    font-weight: 300;
+
+}
+.container .datos a{
+    font-weight: 500;
+    text-decoration: none;
+    color: blueviolet;
 }
